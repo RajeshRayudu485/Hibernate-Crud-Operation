@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+</style>
+<body>
+	<h1>Student Information</h1>
+	<form action="addStudent" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Student Details</legend>
+			Student Name: <input type="text" name="name"> 
+			Enter Address: <textarea  name="address" rows="5" cols="30"></textarea>
+			Enter percentage :<input type="number" name="percentage"step="0.5"> 
+			Male: <input type="radio"  name="gender"value="male"> 
+			Female: <input type="radio" name="gender" value="female"> 
+		    Others: <input type="radio" name="gender" value="other"> 
+			Select image: <input type="file"  name="file">
+
+		</fieldset>
+		<button type="submit">Submit</button>
+	</form>
+
+</body>
+</html>
